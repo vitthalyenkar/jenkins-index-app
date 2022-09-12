@@ -5,8 +5,8 @@ pipeline{
 			  customWorkspace "/data/pipeline"
 	    }
 	}	
-	/*stages{
-	       stage ('Install-apache'){
+	stages{
+	       /*stage ('Install-apache'){
 				    steps {
 						sh 'yum install httpd -y'
 										 
